@@ -124,9 +124,10 @@ Additional PINN results:
 
 
 ### References
-[57 Physics Informed Neural Networks | Introduction | Inverse Methods in Heat Transfer](https://youtu.be/3KqTt7O_rnU)
-[58 Physics Informed Neural Networks | An Intuitive Explanation | Inverse Methods in Heat Transfer](https://youtu.be/ORCZH4v1oVk)
-[59 Physics Informed Neural Networks | BC Incorporation | Inverse Methods in Heat Transfer](https://youtu.be/REjzCl6UB-E)
-[60 PINNs for Inverse Problems | Inverse Methods in Heat Transfer](https://youtu.be/6a9pWh22jjc)
-[Special Thanks to nkusla](https://github.com/nkusla)
+- [57 Physics Informed Neural Networks | Introduction | Inverse Methods in Heat Transfer](https://youtu.be/3KqTt7O_rnU)
+- [58 Physics Informed Neural Networks | An Intuitive Explanation | Inverse Methods in Heat Transfer](https://youtu.be/ORCZH4v1oVk)
+- [59 Physics Informed Neural Networks | BC Incorporation | Inverse Methods in Heat Transfer](https://youtu.be/REjzCl6UB-E)
+- [60 PINNs for Inverse Problems | Inverse Methods in Heat Transfer](https://youtu.be/6a9pWh22jjc)
+- [Special Thanks to nkusla](https://github.com/nkusla)
+
 
