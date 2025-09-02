@@ -13,12 +13,13 @@ The project compares **accuracy, speed, and flexibility** of both approaches and
 Modeling **heat transfer in 2D domains** is a fundamental problem in engineering and physics.  
 Traditionally, the **Finite Difference Method (FDM)** is used to solve the governing **heat equation PDE**:
 
-\[
-\frac{\partial u(x, y, t)}{\partial t} = \alpha \left( 
+$$
+\frac{\partial u(x, y, t)}{\partial t} 
+= \alpha \left( 
 \frac{\partial^2 u(x, y, t)}{\partial x^2} +
 \frac{\partial^2 u(x, y, t)}{\partial y^2}
 \right)
-\]
+$$
 
 
 where `u(x, y, t)` is the temperature field and `α` is thermal diffusivity.  
@@ -120,5 +121,6 @@ Additional PINN results:
 5. **Data Assimilation** – PINNs can fuse physical equations with experimental data seamlessly.  
 
 ---
+
 
 
