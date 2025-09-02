@@ -14,8 +14,12 @@ Modeling **heat transfer in 2D domains** is a fundamental problem in engineering
 Traditionally, the **Finite Difference Method (FDM)** is used to solve the governing **heat equation PDE**:
 
 \[
-\frac{\partial u}{\partial t} = \alpha \nabla^2 u
+\frac{\partial u(x, y, t)}{\partial t} = \alpha \left( 
+\frac{\partial^2 u(x, y, t)}{\partial x^2} +
+\frac{\partial^2 u(x, y, t)}{\partial y^2}
+\right)
 \]
+
 
 where `u(x, y, t)` is the temperature field and `α` is thermal diffusivity.  
 
@@ -117,17 +121,4 @@ Additional PINN results:
 
 ---
 
-## ⚙️ Setup
 
-```bash
-# Clone repository
-git clone https://github.com/<your-username>/Heat-Transfer-using-PINNs
-cd Heat-Transfer-using-PINNs
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate   # Linux/Mac
-venv\Scripts\activate      # Windows
-
-# Install dependencies
-pip install -r requirements.txt
