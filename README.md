@@ -36,14 +36,11 @@ Modeling heat transfer is critical in engineering, but classical solvers like **
 | :---: | :---: |
 | ![](plots/numerical_prediction.gif) | ![](plots/pinn_prediction_all.gif) |
 
-Additional PINN visualizations:  
 
-- **By PDE residual:** ![](plots/pinn_prediction_pde.gif)  
-- **By boundary conditions:** ![](plots/pinn_prediction_colloc.gif)  
-- **By data points:** ![](plots/pinn_prediction_data.gif)  
 
 
 ---
+
 
 
 
